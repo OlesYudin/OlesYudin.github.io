@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/* +-----------------+
+   |    МЕНЮ САЙТА   |
+   +-----------------+ */
+header {
+    display: flex;
+    background: url(img/background.png);
+    background-size: cover;
+    /*background: #322364;*/
+    
+}
+header h1 {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 25px 0 25px 30px;
+    
+}
+header h1 span {
+    font-weight: bolder;
+    color: #da2346;
+    margin-top: 25px;
+}
+header a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: -30px;
+    margin-top: 25px;
+    
+}
+.link_img {
+    position: relative;
+    left: 250px;
+}
+header a:hover{
+    color: #2f637d;
+}
+.link_img:hover {
+    border-bottom: 2px solid #2f637d; 
+}
+
+/* +-----------------+
+   |      БЛОК 1     |
+   +-----------------+ */
+
+
+main {
+    font-family: 'Lato', sans-serif;
+}
+ .first_block {
+    background: url(img/background.png);
+    background-size: cover;
+    /*background: #4d416f;*/
+}
+.first_block h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 175px;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+.first_block p {
+    text-align: center;
+    color: #b0b1b2;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 30px; 
+    padding-bottom: 40px; 
+}
+.first_block a {
+    margin-left: 685px;
+    margin-bottom: 150px;
+    border-left: 100px;
+    text-align: center;
+    padding-left: 725px;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s; 
+    height: 20px;
+    width: 105px;
+    text-align: center;
+    padding-top: 12px;
+}
+.first_block a:hover {
+    color: #b0b1b2;
+}
+
+/* +-----------------+
+   |      БЛОК 2     |
+   +-----------------+ */
+
+.second_block {
+    display: flex;
+}
+.second_block .block_2_img {
+    background-size: cover;
+}
+.second_block .block_2_text {
+    font-family: 'Lato', sans-serif;
+    margin-left: 240px;
+}
+.second_block .block_2_text h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    border-bottom: 2px solid #000;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+.second_block .block_2_text p {
+    margin-bottom: 44px;
+}
+.second_block .block_2_text a {
+    display: inline-block;
+    color: #fff;
+    background-color: #05a0af;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.2s; 
+    height: 24px;
+    width: 160px;
+    text-align: center;
+    padding-top: 12px;
+}
+main .second_block .block_2_text a:hover {
+    color: #266b80;
+}
+
+/* +-----------------+
+   |      БЛОК 3     |
+   +-----------------+ */
+
+.third_block .logo_a {
+    padding: 55px 0 55px 0;
+    background-color: #373737;
+}
+.third_block .logo_a a {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+.third_block .logo_a a:hover{
+    color: #2f637d;
+}
+.third_block .development {
+    display: flex;
+}
+.third_block .development .dev_1{
+    background: #3d3d3d;
+    padding: 0 200px 0 0;
+}
+.third_block .development .dev_2{
+    background: #097e89;
+    padding: 0 200px 0 0;
+}
+.third_block .development .dev_1 img {
+    padding-left: 110px;
+    padding-top: 140px;
+    /*
+    text-align: center;
+    display: block; /* Что бы сделать имг по центру нужно текст алигн и дисплей блок, НО ПОЧЕМУ-ТО ТУТ НЕ РАБОТАЕТ СУКА БЛЯТЬ ЕБАТЬ и приходится подбирать в ручную*/
+}
+.third_block .development .dev_2 img {
+    padding-left: 110px;
+    padding-top: 140px;
+}
+.third_block .development .dev_1 h1 {
+    font-size: 24px;
+    margin-top: 55px;
+    margin-left: 50px;
+    color: #fff;
+
+}
+.third_block .development .dev_2 h1 {
+    font-size: 24px;
+    margin-top: 55px;
+    margin-left: 50px;
+    color: #fff;
+}
+.third_block .development .dev_1 p {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+}
+.third_block .development .dev_2 p {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+}
+.third_block .development .dev_1 a {
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    display: inline-block;
+    color: #fff;
+    background-color: #959595;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border-radius: 2px;
+    transition: 0.2s; 
+    height: 24px;
+    width: 120px;
+    text-align: center;
+    padding-top: 12px;
+    display: block;
+}
+.third_block .development .dev_2 a {
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    display: inline-block;
+    color: #fff;
+    background-color: #959595;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border-radius: 2px;
+    transition: 0.2s; 
+    height: 24px;
+    width: 120px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.third_block .development .dev_1 a:hover {
+    color: #3d3d3d;
+}
+.third_block .development .dev_2 a:hover {
+    color: #3d3d3d;
+}
+
+/* +-----------------+
+   |      БЛОК 4     |
+   +-----------------+ */
+
+.fourth_block{
+    background: #3d3d3d;
+}
+.fourth_block .logo {
+    padding: 55px 0 55px 0;
+    background-color: #373737;
+}
+.fourth_block .logo a {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+.fourth_block .logo a:hover {
+    color: #2f637d;
+}
+.fourth_block .image_txt {
+    display: flex;
+}
+.fourth_block .text p {
+    color: #b6b2b2;
+    margin-top: 100px;
+    margin-left: 90px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #b6b2b2; 
+}
+.fourth_block .image {
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    
+}
+.fourth_block .image a {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* +-----------------+
+   |      БЛОК 4     |
+   +-----------------+ */
+
+.five_block {
+    background: #fff;
+}
+.five_block .logo {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 155px;
+}
+.five_block .logo a {
+    color: #656464;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.five_block .logo a:hover {
+    color: #2f637d; 
+}
+.five_block .column_one {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.five_block .column_one a {
+    padding-right: 90px;
+}
+.five_block .column_two {
+    text-align: center;
+    margin-bottom: 125px;
+}
+.five_block .column_two a {
+    padding-right: 220px;
+}
+
+/* +-----------------+
+   |      FOOTER     |
+   +-----------------+ */
+
+footer .links{
+    background: #474747;
+}
+.links h1 {
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 20px 20px 0;
+    text-align: right;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 1200px) {
+    nav{
+        margin-left: 20%;
+    }
+    .first_block a {
+    margin-left: 30%;
+    margin-bottom: 150px;
+    border-left: 100px;
+    text-align: center;
+    padding-left: 725px;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s; 
+    height: 20px;
+    width: 105px;
+    text-align: center;
+    padding-top: 12px;
+}
+}
+@media screen and (max-width: 800px) {
+    .third_block .logo_a {
+        display: block;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
