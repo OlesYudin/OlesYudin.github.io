@@ -7,4 +7,3 @@
 
 [Проект #3](https://olesyudin.github.io/Project_3/ "Sai for Germany compamy") - Верстка сайта по шаблону от заказчика (планируется залив на WordPress)
 
-[Проект #4](https://olesyudin.github.io/Project_5/ "Axit") - Верстка сайта по шаблону от заказчика (не закончен / TEST)
