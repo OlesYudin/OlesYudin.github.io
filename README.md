@@ -9,3 +9,5 @@
 
 [Проект #4](https://olesyudin.github.io/Project_4/ "Axit") - Верстка сайта по шаблону из интернета (при верстке использовал bootstrap4)
 
+[Проект #5](https://olesyudin.github.io/Project_5/ "Form Reg on JS") - форма регистрации на JavaScript (имя, пол, дата рождения | если не достиг определенного возраста, на сайт не зайдешь)
+
