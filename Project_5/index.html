@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form registration on JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    
+    
+    
+    
+    <form action="" method="post" name="form" id="form">
+        <h1 style="text-align: center; font-family: 'Open Sans', sans-serif;">Form Reg on <span>J</span>ava<span>S</span>cript</h1>
+        <div class="input_name">
+            <input class="for_name" type="text" placeholder="Введите своё имя" id="name">
+            <div class="for_name" id="forName">
+                <p style="margin: 0;"><img src="img/red-cross.png" alt="Red cross" style="margin-top: 2.5px;" title="Вы не ввели имя"></p>
+            </div>
+        </div>
+        
+        
+        <br><br>
+        
+        
+        <div class="input_status">
+            <input type="radio" id="men" name="status" value="men">
+            <label for="men" style="margin: 0 10px 0 5px">Мужской</label>
+            <input type="radio" id="women" name="status" value="women">
+            <label for="women" style="margin: 0 10px 0 5px;">Женский</label>
+            <div class="for_status" id="forStatus">
+                <p style="margin: 0;"><img src="img/red-cross.png" alt="Red cross" style="margin-top: 2.5px;" title="Вы не ввели пол"></p>
+            </div>
+        </div>
+        
+        
+        <br><br>
+        
+        
+        <div class="input_date">
+            <input type="date" id="date" style="width: 175px;">
+            <div class="for_date" id="forDate">
+                <p style="margin: 0;"><img src="img/red-cross.png" alt="Red Cross" style="margin-top: 2.5px;" title="Вы не указали дату рождения"></p>
+            </div>
+        </div>
+        
+        
+        <br><br>
+        
+        
+        <input type="submit" value="Войти" name="submit" id="myButton"/> 
+        
+        
+    </form>
+    <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>

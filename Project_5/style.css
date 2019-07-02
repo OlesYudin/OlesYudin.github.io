@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(img/reg_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+form {
+    background: #fff;
+    display: block;
+    width: 28%;
+    margin: 30vh 0 0 36%;
+    height: 36vh;
+}
+form h1 span {
+    color: #ff8b38;
+}
+
+.input_name input { /* Для имени */
+    margin: 0 10px 0 10px;
+    border: none;
+    border-bottom: 1px solid #ff8b38;
+    outline: none;
+    font-size: 14px;
+}
+.input_name {
+    margin: 3% 0 0 25%;
+}
+.input_status {
+    margin: 2% 0 0 27%;
+}
+.input_date {
+    margin-left: 25%;
+}
+.input_date input { /* Для даты */
+    margin: 0 10px 0 10px;
+    border: none;
+    border-bottom: 1px solid #ff8b38;
+    outline: none;
+}
+.input_name, .input_status, .input_date { /* Для имени, пола и даты */
+    display: inline-flex;
+    flex-direction: row;
+}
+#forName, #forStatus, #forDate { /* Для имени, пола и даты */
+    display: none;
+}
+
+
+
+
+
+
+
+/* Для кнопки */
+
+#myButton {
+    background-color: rgba(255,139,56,0.9);
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #d16c21;
+    width: 50%;
+    padding: 2% 0%;
+    margin: 2% 0 0 25%;
+    font-size: 14px;
+}
+#myButton:hover {
+    cursor: pointer;
+    background: rgba(255,139,56,0.8);
+    transition: 0.2s;
+    border: 2px solid #ff8b21;
+}
