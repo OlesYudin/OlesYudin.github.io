@@ -1,9 +1,9 @@
 # Oles Yudin
 ## Мои проекты
 
-[Проект #1](https://olesyudin.github.io/Project_1/ "My Company") - Верстка сайта из интернет шаблона not adaptive
+[Проект #1](https://olesyudin.github.io/Project_1/ "My Company") - Верстка сайта из интернет-шаблона not adaptive
 
-[Проект #2](https://olesyudin.github.io/Project_2/ "Service Page") - Верстка сайта из интернет шаблона not adaptive
+[Проект #2](https://olesyudin.github.io/Project_2/ "Service Page") - Верстка сайта из интернет-шаблона not adaptive
 
 [Проект #3](https://olesyudin.github.io/Project_3/ "Sai for Germany compamy") - Верстка сайта по шаблону от заказчика (планируется залив на WordPress) so-so adaptive
 
