@@ -1,0 +1,20 @@
+* {
+	font-family: 'Open Sans', sans-serif; 
+}
+.progress {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 5px;
+	background: #0089f6;
+	opacity: 0.7;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+h2 {
+	font-weight: 900;
+}
+p {
+	font-weight: 200;
+}
