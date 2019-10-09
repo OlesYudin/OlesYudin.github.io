@@ -13,3 +13,4 @@
 
 [Проект #6](https://olesyudin.github.io/Project_6/ "Form Reg on JS | v.2") - форма регистрации на JavaScript со страницей загрузки и страницей контента adaptive
 
+
