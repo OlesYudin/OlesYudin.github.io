@@ -11,5 +11,5 @@
 
 [Проект #5](https://olesyudin.github.io/Project_5/ "Form Registration on JS") - форма регистрации на JavaScript (имя, пол, дата рождения + если не достиг определенного возраста, на сайт не зайдешь)  not adaptive
 
-[Проект #6](https://olesyudin.github.io/Project_6/ "Form Registration on JS v.2") - форма регистрации на JavaScript со страницей загрузки и страницей контента adaptive
+[Проект #6](https://olesyudin.github.io/Project_6/ "Form Registration on JS v2") - форма регистрации на JavaScript со страницей загрузки и страницей контента adaptive
 
