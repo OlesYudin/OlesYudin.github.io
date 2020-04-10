@@ -13,4 +13,4 @@
 
 [Проект #6](https://olesyudin.github.io/Project_6/ "Form Registration on JS v2") - форма регистрации на JavaScript со страницей загрузки и страницей контента adaptive
 
-[Проект #7(Belasi)](https://olesyudin.github.io/Belasi/ "Сайт для компании Belasi") - адаптивный сайт для компании Belasi
+[Проект #7(Belasi)](https://olesyudin.github.io/Project_6_belasi/ "Belasi") - адаптивный сайт для компании Belasi
