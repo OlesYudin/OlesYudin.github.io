@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: #000;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  color: #fff;
+  padding: 0 10% 0 10%;
+}
+header a {
+    color: #fff;
+}
+#logo-ec {
+  border: 1.5px solid #fff;
+  border-radius: 5px;
+  padding: 8px 8px;
+  margin: 28px 0 28px 0;
+  background: #235da8;
+  font-family: "Righteous", cursive;
+  font-size: 18px;
+}
+#logo-txt {
+  margin: 39px 0 0 20px;
+  font-family: "Righteous", cursive;
+  font-size: 18px;
+}
+.logo {
+  margin: 30px 0 10px 0;
+}
+.time {
+  margin: 20px 0 20px 0;
+  color: #fff;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+}
+.time span {
+  font-size: 12px;
+}
+.phone-number {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 0 22px 0;
+  line-height: 2;
+  font-family: "Russo One", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.phone-order {
+  text-align: center;
+  margin: 25px 0 25px 0;
+  padding: 17px 0 17px 0;
+  border-radius: 2px;
+  color: #fff;
+  background: #1669b3;
+  font-family: "Russo One", sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+.phone-order:hover,
+#logo-ec:hover, .txt-btn button:hover, .block-advantage-price input[type="submit"]:hover {
+  transition: 0.7s;
+  transition-delay: 0.05s;
+  background: #f7b516;
+  box-shadow: 0 0 20px #f7b516, 0 0 40px #f7b516;
+  color: #000;
+}
+.phone-order:hover a {
+  color: #000;
+  transition: 0.7s;
+  transition-delay: 0.05s;
+}
+#logo-ec:hover {
+  color: #fff;
+}
+.phone-order:hover #order-call,
+#logo-ec:hover, 
+.txt-btn button:hover, 
+.block-advantage-price input[type="submit"]:hover,
+.btn-price:hover {
+  transition: 0.7s;
+  transition-delay: 0.05s;
+  background: #f7b516;
+  box-shadow: 0 0 20px #f7b516, 0 0 40px #f7b516;
+  color: #000;
+}
+#logo-ec:hover {
+  color: #fff;
+}
+.info {
+  background: #f7b516;
+}
+
+.block-content {
+  background: url(../img//bg-track.png) no-repeat;
+  background-size: contain;
+  height: 861px;
+}
+.block-content .info {
+  background: #f7b516;
+  margin-left: 15%;
+  width: 25%;
+  height: 621px;
+  padding: 0 5% 0 5%;
+}
+.block-content .txt-h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  padding: 80px 0 25px 0;
+}
+.block-content .txt-p {
+  font-weight: 400;
+  font-family: "Righteous", cursive;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.block-content .bank, 
+.block-content .track, 
+.block-content .calendar,  
+.block-content .medal {
+  display: flex;
+  margin: 25px 0 25px 0;
+}
+.block-content .bank p, 
+.block-content .track p, 
+.block-content .calendar p, 
+.block-content .medal p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.block-price {
+  background: #fff url(../img/bg-price.png) no-repeat ;
+  background-size: contain;
+  background-attachment: local;
+  top: -150px;
+  max-width: 100%;
+  position: relative;
+}
+.form-price {
+  text-align: right;
+  margin-right: 10%;
+}
+.form-price h3 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  margin: 0px 2.5% 40px 0;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 40%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.email, .phone {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  font-weight: 800;
+}
+.label {
+  position: relative;
+  display: grid;
+  width: 80%;
+  margin: 0 20% 50px 0;
+  font-weight: 800;
+  height: 30px;
+}
+.label input {
+  font-weight: 600;
+}
+.label span {
+  position: absolute;
+  display: inline-block;
+  bottom: 5px;
+  left: 10px;
+  opacity: .5;
+  visibility: hidden;
+  transition: .2s;
+  font-weight: 600;
+}
+.label input:placeholder-shown~span {
+  visibility: visible;
+}
+.label input:placeholder-shown:focus~span,
+.label input:not(:placeholder-shown)~span {
+  bottom: 100%;
+  opacity: .8;
+  font-size: 80%;
+  visibility: visible;
+  font-weight: 800;
+}
+.email input, .phone input {
+  border: none;
+  outline: none;
+}
+.email img, .phone img {
+  margin: 5px 10px;
+}
+.price-clock {
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  margin: 10px 0 100px 0;
+}
+.price-clock img {
+  width: 30px;
+  height: 30px;
+  margin: 5px 10px;
+}
+.btn-price {
+  width: 90%;
+  height: 60px;
+  margin: 0 5% 0 5%;
+  background: #1866af;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.block-advantage {
+  background: #08243e;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.advantage-info {
+  text-align: center;
+}
+.advantage-info h3 {
+  padding: 100px 10px 15px 10px;
+  font-weight: bold;
+}
+.advantage-img {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 61%;
+  margin-left: 19.6%; 
+}
+.content {
+  margin: 85px 0 65px 0;
+  padding: 0 10px 0 10px;
+}
+.content.engine p {
+  padding-top: 10px;
+}
+.content.track p {
+  padding-top: 22px;
+}
+.content.calendar p {
+  padding-top: 18px;
+}
+.content.location p {
+  padding-top: 19px;
+}
+.block-advantage-price {
+  background-image: url("../img/bg-advantages-price.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-color: #0b2f58;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.block-advantage-price h3 {
+  padding-top: 40px;
+}
+.block-advantage-price p {
+  bottom: 0px;
+}
+.block-advantage-price form input {
+  margin: 0 20px 60px 20px;
+  width: 15.3%;
+  height: 50px;
+}
+#form-advantage-price {
+  display: flex;
+  justify-content: center;
+}
+.block-advantage-price input[type="text"], .block-advantage-price input[type="tel"] {
+  padding: 0 0 0 10px;
+  color: #818181;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+.block-advantage-price input[type="submit"] {
+  background: #f7b516;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+}
+.block-advantage-price input[type="submit"]:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.block-advantage-price .advantage-info {
+  padding-bottom: 80px;
+}
+.block-advantage-price a {
+	position: relative;
+	color: #fff; 
+	cursor: pointer;
+	line-height: 1; 
+}
+.block-advantage-price a:hover, #phone a:hover, .contacts a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#phone a {
+  border: 2px solid #fff;
+}
+.block-advantage-price a {
+  font-family: "Russo One", sans-serif;
+}
+.block-advantage-price a:after, .contacts a:after {
+  content: "";
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+  height: 2px;
+	background-color: #fff;
+	transition: width 0.3s ease-out;
+}
+.block-advantage-price a:hover:after, .block-advantage-price a:focus:after, #phone a:hover:focus, .contacts a:hover:after {
+  width: 100%;
+}
+.block-advantage-details {
+  margin-bottom: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.advantage-1 .advantage-1-img {
+  background: url(../img/control-celosnost.png);
+  width: 230px;
+  height: 300px;
+}
+.advantage-1 .advantage-1-img {
+  margin-left: 10px;
+}
+.advantage-1 .advantage-1-img:hover {
+  transition: .4s;
+  background: url(../img/control-celosnost-hover.png);
+}
+.advantage-details-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 61%;
+  margin-left: 19.6%; 
+}
+
+.customer-discount {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #08243e;
+  color: #fff;
+}
+.customer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 15% 0 15%;
+}
+.customer-wrap img {
+  width: 70px;
+  margin: 0 0 10px 25%;
+}
+.customer-wrap p {
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 0 10px 0 10px;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10% 0 10%;
+  justify-content: space-around; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer a {
+  color: #fff;
+}
+.footer .logo {
+  margin: 0 0 30px 0;
+}
+.contacts {
+  position: relative;
+  top: -10px;
+}
+.contacts a {
+  font-family: "Russo One", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 0 0 5px;
+  line-height: 1; 
+  cursor: pointer;
+  color: #fff;
+}
+

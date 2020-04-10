@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Eddie's-Car</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/title.png" type="image/x-icon" />
+</head>
+<body>
+<header>
+  <div class="logo" onclick="window.location.reload();">
+      <a href="#" id="logo-ec" title="Eddie's-Car">EC</a>
+      <a href="#" id="logo-txt">Eddie's-Car</a>
+  </div>
+  <div class="time">
+      <p>
+          c 9:00 до 21:00 <br />
+          <span>без выходных</span>
+      </p>
+  </div>
+  <div class="phone-number">
+      <a href="tel:+78182474725" id="phone">+X (XX8) 2X7-4X-X5</a>
+      <a href="tel:+78182474725" id="phone">+X (XX8) 2X7-4X-X5</a>
+  </div>
+  <div class="phone-order">
+      <a href="tel:+78182474725" id="order-call">Заказать звонок</a>
+  </div>
+</header>
+
+<div class="block-content">
+  <div class="info">
+      <h2 class="txt-h2">
+          Оригинальные <br>
+          запчасти <br>
+          для белаза
+      </h2>
+      <p class="txt-p">
+          с бесплатной доставкой
+          в Ваш город!
+      </p>
+      <div class="bank">
+          <div class="imge">
+              <img src="img/bank.png" alt="Bank logo">
+          </div>
+          <p>
+              Дилерские цены - ниже на 20%,
+              работаем без посредников!
+          </p>
+      </div>
+      <div class="track">
+          <div class="imge">
+              <img src="img/track.png" alt="Track logo">
+          </div>
+          <p>
+              Срочная бесплатная доставка
+              за 7 дней
+          </p>
+      </div>
+      <div class="calendar">
+          <div class="imge">
+              <img src="img/calendar.png" alt="Calendar logo">
+          </div>
+          <p>
+              Даем рассрочку
+              6 месяцев
+          </p>
+      </div>
+      <div class="medal">
+          <div class="imge">
+              <img src="img/medal.png" alt="Medal logo">
+          </div>
+          <p>
+              Даем гарантию
+              от 12 месяцев
+          </p>
+      </div>
+  </div>
+</div>
+
+<div class="block-price">
+    <div class="form-price">
+        <form action="" method="POST">
+            <h3>Получите прайс прямо сейчас <br> на электронную почту!</h3>
+            <div class="form">
+                <div class="email">
+                    <label class="label"><input type="email" placeholder="&nbsp;"><span>ВВЕДИТЕ ВАШ
+                            E-MAIL</span></label>
+                    <img src="img/email.png" alt="Email logo" title="Введите ваш e-mail в поле для ввода">
+                </div>
+                <div class="phone">
+                    <label class="label"><input type="tel" placeholder="&nbsp;"
+                            pattern="2[0-9]{3}-[0-9]{3}"><span>ВВЕДИТЕ ВАШ
+                            НОМЕР</span></label>
+                    <img src="img/phone.png" alt="Phone logo" title="Введите ваш номер телефона в поле для ввода">
+                </div>
+
+                <div class="price-clock">
+                    <p>Прайс прийдет к Вам на почту <br> в течении 5 минут!</p>
+                    <img src="img/clock.png" alt="Clock" title="Прайс прийдет к Вам на почту">
+                </div>
+                <button class="btn-price" type="submit">Получить прайс</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="block-advantage">
+  <div class="advantage-info">
+    <h3>Вам не прийдется ждать!</h3>
+    <p>Любые запчасти для всех моделей Белаз <br> всегда в наличии!</p>
+  </div>
+  <div class="advantage-img">
+    <div class="content engine">
+      <img src="img/engine.png">
+      <p>Любые типы деталей <br> от шайбы до двигателя!</p>
+    </div>
+    <div class="content track">
+      <img src="img/dump-track.png">
+      <p>Все модификации Белаз <br> от 45т до 450т</p>
+    </div>
+    <div class="content calendar">
+      <img src="img/calendar-advantage.png">
+      <p>Отгружаем в день заказа!</p>
+    </div>
+    <div class="content location">
+      <img src="img/location.png">
+      <p>Доставим в любое место!</p>
+    </div>
+  </div>
+</div>
+
+<div class="block-advantage-price">
+  <div class="advantage-info">
+    <h3>Ищите конкретную деталь?</h3>
+    <p>Если у Вас есть артикул - введите его в поле ниже и получите цену <br> ПРЯМО СЕЙЧАС!</p>
+  </div>
+  <form action="" method="POST" id="form-advantage-price">
+    <input type="text" name="articl" placeholder="Введите артикул детали" title="Введите артикул детали">
+    <input type="tel" id="telephone" placeholder="Введите ваш телефон" pattern="2[0-9]{3}-[0-9]{3}" title="Введите ваш номер телефона" required>
+    <input type="submit" value="УЗНАТЬ ЦЕНУ">
+  </form>
+  <div class="advantage-info">
+    <p>Мы перезвоним вам в течении 3 минут и назовем цену детали!</p>
+    <p>Или вы можете перезвонить нам сами:</p>
+    <a href="tel:+78182474725"> +7 (XX8) 2XX-X7-X5</a>
+  </div>
+</div>
+
+<div class="block-advantage-details">
+  <div class="advantage-info details">
+    <h3>Мы гарантируем сохранность деталей <br> во время перевозки!</h3>
+  </div>
+  <div class="advantage-details-info">
+    <div class="advantage-1">
+      <div class="advantage-1-img"></div>
+      <p>Гарантия на целосность поставки <br> прописана в договоре</p>
+      <a href="#">Подробнее</a>
+    </div>
+    <div class="advantage-2">
+      <img src="img/control-ynakovka.png" alt="Жесткая упаковка">
+      <p>Каждая запчасть доставляется с завода <br> в жесткой упаковке</p>
+      <a href="#">Подробнее</a>
+    </div>
+    <div class="advantage-3">
+      <img src="img/control-kachestvo.png" alt="Качество">
+      <p>Дополнительный контроль качества <br> нашими специалиставми</p>
+      <a href="#">Подробнее</a>
+    </div>
+  </div>
+</div>
+
+<div class="customer-discount">
+  <div class="advantage-info">
+    <h3>У нас разработаны бонусные системы <br> и скидки для наших клиентов</h3>
+  </div>
+  <div class="customer-wrap">
+    <div class="advantage-1">
+      <img src="img/discount-1.png" alt="">
+      <p>Дополнительная скидка 10% <br> на вторую запчасть <br> и любые последующие</p>
+    </div>  
+    <div class="advantage-2">
+      <img src="img/discount-2.png" alt="">
+      <p>Скидка 20% при заключении <br> договора на годовое <br> сервисное обслуживание</p>
+    </div>
+    <div class="advantage-3">
+      <img src="img/delivery-track.png" alt="">
+      <p>Бесплатная доставка <br> по всей России <br> для всех клиентов</p>
+    </div>
+    <div class="advantage-4">
+      <img src="img/feedback.png" alt="">
+      <p>Бесплатная круглосуточная <br> техническая поддержка</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="logo" onclick="window.location.reload();">
+    <a href="#" id="logo-ec" title="Eddie's-Car">EC</a>
+    <a href="#" id="logo-txt">Eddie's-Car</a>
+  </div>
+  <div class="empty"></div>
+  <div class="dev-info">
+    <p>&copy; 2020, Oles Yudin</p>
+  </div>
+  <div class="contacts">
+    <p>Есть вопросы? Звони!</p>
+    <a href="tel:+78182474725">+X (XX8) 2X7-4X-X5</a>
+  </div>
+  <div class="empty2"></div>
+  <div class="empty3"></div>
+</div>
+
+</body>
+</html>
