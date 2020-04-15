@@ -233,10 +233,12 @@ header a {
   width: 270px;
   height: 60px;
   margin: 0;
-  background: #1866af;
+  background-сolor: rgb(24, 102, 175);
   color: #fff;
   border: none;
   border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
