@@ -233,7 +233,7 @@ header a {
   width: 270px;
   height: 60px;
   margin: 0;
-  background: rgb(24, 102, 175);
+  background-color: rgba(24, 102, 175, 0.9);
   color: #fff;
   border: none;
   border-radius: 2px;
