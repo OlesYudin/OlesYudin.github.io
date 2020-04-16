@@ -490,4 +490,7 @@
 	.footer .logo {
 		margin-bottom: 30px;
 	}
+	.footer p {
+		padding-bottom: 15px;
+	}
 }
