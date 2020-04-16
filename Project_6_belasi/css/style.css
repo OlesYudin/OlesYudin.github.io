@@ -320,13 +320,14 @@ header a {
   outline: none;
 }
 .block-advantage-price input[type="submit"] {
-  background-color: rgba(247, 181, 22, 0.9);
+  background-color: #f7b516;
   /*background-color: rgba(24, 102, 175, 1);*/
   border: none;
   border-radius: 2px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   /*-webkit-appearance: none;*/
+  -webkit-appearance: none;
   color: #fff;
   font-weight: bold;
 }
