@@ -317,7 +317,8 @@ header a {
   outline: none;
 }
 .block-advantage-price input[type="submit"] {
-  background-color: rgba(247, 181, 22, 1);
+  /*background-color: rgba(247, 181, 22, 1);*/
+  background-color: rgba(24, 102, 175, 1);
   border: none;
   border-radius: 2px;
   color: #fff;
