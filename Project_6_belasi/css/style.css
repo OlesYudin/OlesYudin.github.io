@@ -237,9 +237,6 @@ header a {
   color: #fff;
   border: none;
   border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-appearance: none; /* Убрать bordre-radius у кнопки на IOS */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
