@@ -524,5 +524,6 @@
 		-o-animation: none !important;
 		-ms-animation: none !important;
 		animation: none !important;
+		box-shadow: none;
 	}
 }
