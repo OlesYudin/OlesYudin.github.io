@@ -525,6 +525,7 @@
 		-ms-animation: none !important;
 		animation: none !important;
 		box-shadow: none;
+		-webkit-appearance: none;
 		background: red;
 	}
 }
