@@ -66,7 +66,9 @@ header a {
   position: relative;
 }
 .phone-order:hover,
-#logo-ec:hover, .txt-btn button:hover, .block-advantage-price input[type="submit"]:hover {
+#logo-ec:hover, 
+.txt-btn button:hover, 
+.block-advantage-price input[type="submit"]:hover {
   transition: 0.7s;
   transition-delay: 0.05s;
   background: #f7b516;
@@ -233,7 +235,7 @@ header a {
   width: 270px;
   height: 60px;
   margin: 0;
-  background-color: rgba(24, 102, 175, 0.9);
+  background-color: rgba(24, 102, 175, 1);
   color: #fff;
   border: none;
   border-radius: 2px;
@@ -310,7 +312,8 @@ header a {
   display: flex;
   justify-content: center;
 }
-.block-advantage-price input[type="text"], .block-advantage-price input[type="tel"] {
+.block-advantage-price input[type="text"], 
+.block-advantage-price input[type="tel"] {
   padding: 0 0 0 10px;
   color: #818181;
   border: none;
@@ -338,7 +341,9 @@ header a {
 	cursor: pointer;
 	line-height: 1; 
 }
-.block-advantage-price a:hover, #phone a:hover, .contacts a:hover {
+.block-advantage-price a:hover, 
+#phone a:hover, 
+.contacts a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -348,7 +353,8 @@ header a {
 .block-advantage-price a {
   font-family: "Russo One", sans-serif;
 }
-.block-advantage-price a:after, .contacts a:after {
+.block-advantage-price a:after, 
+.contacts a:after {
   content: "";
 	display: block;
 	position: absolute;
@@ -358,7 +364,10 @@ header a {
 	background-color: #fff;
 	transition: width 0.3s ease-out;
 }
-.block-advantage-price a:hover:after, .block-advantage-price a:focus:after, #phone a:hover:focus, .contacts a:hover:after {
+.block-advantage-price a:hover:after, 
+.block-advantage-price a:focus:after, 
+#phone a:hover:focus, 
+.contacts a:hover:after {
   width: 100%;
 }
 .block-advantage-details {
