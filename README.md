@@ -14,3 +14,5 @@
 [Проект #6](https://olesyudin.github.io/Project_6/ "Form Registration on JS v2") - форма регистрации на JavaScript со страницей загрузки и страницей контента
 
 [Проект #7(Belasi)](https://olesyudin.github.io/Project_6_belasi/ "Belasi") - сайт для компании Belasi
+
+[Проект #8(Yoga tours)](https://olesyudin.github.io/Project_yoga/ "Yoga") - сайт для компании Yoga
