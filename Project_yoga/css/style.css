@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.title h3, p, a, h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;  
+}
+.border {
+    stroke-width: 2px;
+    stroke: #ca6f33;
+    fill: none;
+}
+.title {
+    text-align: center;
+    padding: 80px 0;
+}
+.title h3 {
+    padding-bottom: 20px;
+}
+p, a {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.block-main {
+    background: url(../img/block-main/main-background.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.main-wrap,
+.wrap {
+    width: 1140px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.block-main a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    background: url(../img/block-main/logo.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+.phone-number {
+    align-self: center;
+    text-align: right;
+}
+.phone-number a {
+    display: inline-block;
+    position: relative;
+    line-height: 1; 
+    padding-top: 12px;
+}
+.phone-number a:after {
+    position: absolute;
+    content: "";
+	display: block;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #fff; 
+	transition: width 0.3s ease-out;
+}
+.phone-number a:hover:after,
+.phone-number a:focus:after {
+	width: 100%; /* ширина полоски при наведении */
+}
+
+.main-content h1, 
+.main-content h3,
+.main-content p,
+.main-btn,
+.social-icon {
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 160px 0 50px 0;
+}
+.main-content h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+.main-content p {
+    text-transform: none;
+    padding: 20px 0 100px 0;
+}
+.main-btn a {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+    overflow: hidden;
+}
+.main-btn a:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.main-btn a:before{
+    background: rgba(248, 242, 228, 0.8);
+    transform: translateX(-100%);
+    transition: .5s;
+}
+.main-btn a:hover:before {
+    transform: translateX(0);
+}
+.social-icon {
+    padding: 140px 0 40px 0;
+}
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+.block-about-yoga {
+    background: #f8f2e4;
+}
+.block-about-yoga .wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+}
+.content {
+    padding-left: 80px;
+    width: 480px;
+}
+.content h2 {
+    padding-top: 30px;
+    font-size: 38px;
+}
+.content span {
+    font-size: 54px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+.content p {
+    padding: 40px 0;
+}
+.content-image {
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+}
+.content-image p {
+    font-size: 18px;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 0 30px;
+}
+.content-5-reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+.reason {
+    margin: 10px 0;
+}
+.reason img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.reason img:hover {
+    transition: .3s;
+    opacity: .9;
+}
+.reason p {
+    text-align: center;
+    width: 280px;
+    padding: 20px 0;
+}
+
+.slider {
+    position: relative;
+}
+.slider-item {
+    text-align: center;
+    transition: all .3s ease 0s;
+    opacity: .4;
+    outline: none;
+    position: relative;
+}
+.slider-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 95%;
+    height: 90%;
+    transform: translate(2.5%,5%);
+    color: #fff;
+    border: 2px solid #fff;
+    z-index: 2;
+}
+.slider-content.beach {
+    color: #ca6f33;
+    border: 2px solid #ca6f33;
+}
+.slider-content.beach p {
+    font-weight: 500;
+}
+.slider-content h3 {
+    padding: 150px 0 20px 0;
+    vertical-align: middle;
+}
+.slider-content p {
+    width: 450px;
+    margin: 0 auto;
+}
+.slider-item.slick-center .slider-content {
+    display: block;
+}
+.slider-item img {
+    max-width: 90%;
+}
+.slider-item.slick-center {
+    opacity: 1;
+}
+.slider-item.slick-center img {
+    max-width: 100%;
+}
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 ;
+}
+.slider .slick-dots li {
+    margin: 0 10px;
+}
+.slider .slick-dots button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background: #ca6f33;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 2px solid #ca6f33;
+}
+.shedule-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.shedule {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #fff8e6;
+    width: 260px;
+    margin: 10px;
+}
+.shedule p {
+    font-size: 16px;
+    padding: 30px 0 15px 0;
+}
+.shedule span {
+    font-size: 18px;
+    font-weight: 900;
+}
+.shedule .shedule-info {
+    padding: 20px 0 15px 0;
+}
+.shedule .shedule-info a {
+    color: #5a56af;
+    border-bottom: 1px solid #5a56af;
+}
+.shedule .btn-shedule {
+    margin: 15px 0 30px 0;
+} 
+.shedule .btn-shedule a {
+    background: #e28234;
+    border: 2px solid #e28234;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 30px;
+}
+.shedule .btn-shedule:hover a {
+    transition: .2s;
+    color: #e28234;
+    background: transparent;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .main-wrap,
+    .wrap {
+        width: 960px;
+    }
+    .content-5-reasons {
+        max-width: 960px;
+        margin: 0 0 40px 0;
+    }
+    .slider-item img {
+        max-width: 95%;
+    }
+    .slider-item.slick-center img {
+        max-width: 100%;
+    }
+    .block-shedule-trip .wrap {
+        width: 770px;
+    }
+    .shedule-item {
+        justify-content: center;
+    }
+    .shedule {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .main-wrap,
+    .wrap {
+        width: 720px;
+    }
+    .wrap {
+        margin-left: 25%;
+        transform: translateX(-25%);
+    }
+    .content h2 {
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    .content span {
+        font-size: 48px;
+        line-height: 1.1em;
+    }
+    .content {
+        padding-left: 40px;
+    }
+    .content p {
+        padding: 20px 0;
+    }
+    .content-image p {
+        padding: 0 30px;
+    }
+    .block-5-reasons .wrap {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .content-5-reasons {
+        max-width: 720px;
+    }
+    .slider-item  {
+        max-width: 992px;
+        width: 100%;
+    }
+    .slider-item.slick-center img {
+        max-width: 100%;
+    }
+    .slider-content,
+    .slider-content.beach {
+        border: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    a:active {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    .main-wrap,
+    .wrap {
+        width: 540px;
+    }
+    .title {
+        padding: 60px 0;
+    }
+    .title h3 {
+        font-size: 26px;
+    }
+    .phone-number a:hover:after,
+    .phone-number a:focus:after {
+	    width: 0%;
+    }
+    .main-btn a::before {
+        background: none;
+    }
+    .wrap {
+        margin: 0;
+        transform: translateX(0%);
+    }
+    .block-about-yoga .image img {
+        width: 300px;
+        height: 400px;
+    }
+    .content h2 {
+        padding-top: 10px;
+    }
+    .content span {
+        font-size: 42px;
+    }
+    .content {
+        padding-left: 20px;
+    }
+    .content p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .content-image p {
+        padding: 0 25px;
+    }
+    .content-5-reasons {
+        max-width: 540px;
+    }
+    .reason {
+        margin: 0;
+    }
+    .slider .slick-dots {
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    p, a {
+        font-size: 16px;
+    }
+    a:active {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    .title {
+        padding: 40px 0;
+    }
+    .title h3 {
+        font-size: 22px;
+    }
+    .logo {
+        margin-left: 15px;
+    }
+    .phone-number {
+        padding-right: 15px;
+    }
+    .phone-number a {
+        padding-top: 6px;
+    }
+    .phone-number a:hover:after,
+    .phone-number a:focus:after {
+	    width: 0%;
+    }
+    .main-wrap,
+    .wrap {
+        width: 100%;
+        margin: 0;
+        transform: translateX(0%);
+    }
+    .main-content h1 {
+        padding: 80px 0 20px 0;
+        font-size: 32px;  
+    }
+    .main-content h3 {
+        font-size: 16px;
+    }
+    .main-content p {
+        padding: 10px 0 150px 0;
+    }
+    .main-btn a::before {
+        background: none;
+    }
+    .block-about-yoga .wrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .block-about-yoga .image {
+        display: block;
+        align-self: center;
+    }
+    .block-about-yoga .image img {
+        width: 100%;
+        height: 100%;
+    }
+    .content {
+        width: 100%;
+        padding: 0;
+    }
+    .content h2 {
+        width: 90%;
+        padding: 0 5%;
+    }
+    .content p {
+        width: 90%;
+        padding: 10px 5%;
+    }
+    .content-image-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-image p {
+        padding: 0 20px;
+    }
+    .content-image {
+        margin-left: 20px;
+    }
+    .slider-item img {
+        width: 576px;
+        max-height: 300px;
+    }
+    .slider-content {
+        width: 100%;
+        height: 100%;
+        transform: translate(0,0);
+    }
+    .slider-content h3 {
+        font-size: 22px;
+        padding: 100px 0 20px 0;
+        vertical-align: middle;
+    }
+    .slider-content p {
+        width: 300px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .slider .slick-dots {
+        padding: 10px 0;
+    }
+}
