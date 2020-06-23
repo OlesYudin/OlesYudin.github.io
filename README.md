@@ -15,4 +15,4 @@
 
 [Проект #7(Belasi)](https://olesyudin.github.io/Project_6_belasi/ "Belasi") - сайт для компании Belasi
 
-[Проект #8(Yoga tours)](https://olesyudin.github.io/Project_yoga/ "Yoga") - сайт для компании Yoga
+[Проект #8(Yoga tours)](https://olesyudin.github.io/Project_yoga/ "Yoga") - сайт для компании Дом Солнца
