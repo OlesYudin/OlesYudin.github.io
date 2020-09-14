@@ -19,6 +19,6 @@
 
 # LABWORKS
 
-#### УИБ
+### УИБ
 
 [LW-1](https://olesyudin.github.io/LabWorks/YIB/LW1%20(Password%20validator) "Password Validator") - оценка надежности пароля на JS
