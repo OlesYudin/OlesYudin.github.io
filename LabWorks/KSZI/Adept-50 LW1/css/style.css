@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana;
+    background: #3b3a3d;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    color: #ee82ee;
+    margin: 10px;
+}
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.user a {
+    color: #e225e2;
+}
+.user .active,
+.terminal.active,
+.file.active,
+.job.active {
+    transition: ease-in-out .1s;
+    background: #cf4dcf;
+    color: #fff;
+}
+.wrap ul {
+    padding: 0px;
+    text-align: center;
+}
+.wrap li {
+    list-style: none;
+    padding: 5px 0;
+    color: #b35eb3;
+}
+form {
+    margin-top: 20px;
+}
+.form-wrap {
+    display: flex;
+    justify-content: center;
+}
+.chose-terminal,
+.chose-file,
+.chose-job {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.chose-terminal .terminal-wrap,
+.chose-file .file-wrap,
+.chose-job .job-wrap {
+    color: #b35eb3;
+    padding: 5px 0;
+}
+.btn {
+    margin: 20px 50%;
+    transform: translateX(50%);
+}
+.btn-submit {
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    padding: 10px 30px;
+    color: #fff;
+    background: #bd16bd;
+    border: 3px solid #bd16bd;
+    border-radius: 5px;
+}
+.btn input {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}

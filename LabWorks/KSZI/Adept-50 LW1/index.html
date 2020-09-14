@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fav-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ADEPT-50</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="user" id="user">
+            <h2>Пользователи</h2>
+            <ul>
+                <li class="user-wrap">
+                    <a href="#" class="user-1" id="user1">Пользователь 1</a>
+                </li>
+                <li class="user-wrap">
+                    <a href="#" class="user-2" id="user2">Пользователь 2</a>
+                </li>
+                <li class="user-wrap">
+                    <a href="#" class="user-3" id="user3">Пользователь 3</a>
+                </li>
+                <li class="user-wrap">
+                    <a href="#" class="user-4" id="user4">Пользователь 4</a>
+                </li>
+                <li class="user-wrap">
+                    <a href="#" class="user-5" id="user5">Пользователь 5</a>
+                </li>
+            </ul>
+        </div>
+        <div class="terminal-wrap">
+            <h2>Терминалы</h2>
+            <ul>
+                <li class="terminal terminal-1" id="terminal1">Терминал 1</li>
+                <li class="terminal terminal-2" id="terminal2">Терминал 2</li>
+                <li class="terminal terminal-3" id="terminal3">Терминал 3</li>
+                <li class="terminal terminal-4" id="terminal4">Терминал 4</li>
+                <li class="terminal terminal-5" id="terminal5">Терминал 5</li>
+            </ul>
+        </div>
+        <div class="file-wrap">
+            <h2>Файлы</h2>
+            <ul>
+                <li class="file file-1" id="file1">Файл 1</li>
+                <li class="file file-2" id="file2">Файл 2</li>
+                <li class="file file-3" id="file3">Файл 3</li>
+                <li class="file file-4" id="file4">Файл 4</li>
+                <li class="file file-5" id="file5">Файл 5</li>
+            </ul>
+        </div>
+        <div class="job-wrap">
+            <h2>Задание</h2>
+            <ul>
+                <li class="job job-1" id="job1">Задание 1</li>
+                <li class="job job-2" id="job2">Задание 2</li>
+                <li class="job job-3" id="job3">Задание 3</li>
+                <li class="job job-4" id="job4">Задание 4</li>
+                <li class="job job-5" id="job5">Задание 5</li>
+            </ul>
+        </div>
+    </div>
+    <form action="" method="GET">
+        <div class="form-wrap">
+            <!-- Выбор пользователя -->
+        <div class="chose-user" id="choseUser">
+            <select size="6" class="select-user" id="selectUser">
+                <option disabled>Пользователи</option>
+                <option value="user1">Пользователь 1</option>
+                <option value="user2">Пользователь 2</option>
+                <option value="user3">Пользователь 3</option>
+                <option value="user4">Пользователь 4</option>
+                <option value="user5">Пользователь 5</option>
+            </select>
+        </div>
+        <!-- Выбор терминала -->
+        <div class="chose-terminal" id="choseTerminal">
+            <div class="terminal-wrap">
+                <input type="radio" id="terminal1" name="terminal" value="terminal1">
+                <label for="terminal1">Терминал 1</label>
+            </div>
+            <div class="terminal-wrap">
+                <input type="radio" id="terminal2" name="terminal" value="terminal2">
+                <label for="terminal2">Терминал 2</label>
+            </div>
+            <div class="terminal-wrap">
+                <input type="radio" id="terminal3" name="terminal" value="terminal3">
+                <label for="terminal3">Терминал 3</label>
+            </div>
+            <div class="terminal-wrap">
+                <input type="radio" id="terminal4" name="terminal" value="terminal4">
+                <label for="terminal4">Терминал 4</label>
+            </div>
+            <div class="terminal-wrap">
+                <input type="radio" id="terminal5" name="terminal" value="terminal5">
+                <label for="terminal5">Терминал 5</label>
+            </div>
+        </div>
+        <!-- Выбор файла -->
+        <div class="chose-file" id="choseFile">
+            <div class="file-wrap">
+                <input type="radio" id="file1" name="file" value="file1">
+                <label for="file1">Файл 1</label>
+            </div>
+            <div class="file-wrap">
+                <input type="radio" id="file2" name="file" value="file2">
+                <label for="file2">Файл 2</label>
+            </div>
+            <div class="file-wrap">
+                <input type="radio" id="file3" name="file" value="file3">
+                <label for="file3">Файл 3</label>
+            </div>
+            <div class="file-wrap">
+                <input type="radio" id="file4" name="file" value="file4">
+                <label for="file4">Файл 4</label>
+            </div>
+            <div class="file-wrap">
+                <input type="radio" id="file5" name="file" value="file5">
+                <label for="file5">Файл 5</label>
+            </div>
+        </div>
+        <!-- Выбор работы -->
+        <div class="chose-job" id="choseJob">
+            <div class="job-wrap">
+                <input type="radio" id="job1" name="job" value="job1">
+                <label for="job1">Задание 1</label>
+            </div>
+            <div class="job-wrap">
+                <input type="radio" id="job2" name="job" value="job2">
+                <label for="job2">Задание 2</label>
+            </div>
+            <div class="job-wrap">
+                <input type="radio" id="job3" name="job" value="job3">
+                <label for="job3">Задание 3</label>
+            </div>
+            <div class="job-wrap">
+                <input type="radio" id="job4" name="job" value="job4">
+                <label for="file4">Задание 4</label>
+            </div>
+            <div class="job-wrap">
+                <input type="radio" id="job5" name="job" value="job5">
+                <label for="job5">Задание 5</label>
+            </div>
+        </div>
+        </div>
+        <div class="btn">
+            <input type="submit" class="btn-submit" id="btnSubmit" value="Отправить">
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

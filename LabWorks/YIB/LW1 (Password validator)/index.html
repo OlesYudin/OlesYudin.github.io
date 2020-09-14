@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fav-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Password Validator</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Проверка пароля</h1>
+        <form method="POST">
+            <ul>
+                <li>
+                    <label for="pswd">Пароль:</label>
+                    <span><input id="pswd" type="password" name="pswd" class="password"/></span>
+                    <a href="#" class="show-password" id="show-password"></a>
+                </li>
+                <li>
+                    <button type="submit" class="btn">Отправить</button>
+                </li>
+            </ul>
+        </form>
+        <div class="content" id="content">
+            <div class="content-title">
+                <h3>Требование к паролю</h3>
+            </div>
+            <ul>
+                <!-- <li class="letter" id="letter">Минимум <strong>6 букв</strong></li> -->
+                <li class="kirillic" id="kirillic">Пароль не содержит <strong>кириллицы</strong></li>
+                <li id="capital">Минимум <strong>одна заглавная буква</strong></li>
+                <li id="number">Минимум <strong>одна цифра</strong></li>
+                <li id="length">Быть не менее <strong>8 символов</strong></li>
+                <li id="reg">Использовать <strong>1 спецсимвол</strong></li>
+            </ul>
+            <div class="content-title">
+                <h3>Дополнительные требования</h3>
+            </div>
+            <table>
+                <tr>
+                    <th>Условие</th>
+                    <th>Факт выполнения</th>
+                </tr>
+                <tr>
+                    <td>Пароль содержит меньше 5ти символов</td>
+                    <td class="extraMinLetter" id="extraMinLetter">
+                        <div class="extrashow-minletter" id="extraShowMinLetter"><p>0</p></div>
+                        <div class="extrahide-minletter" id="extraHideMinLetter"><p>-10</p></div>
+                    </td>
+               </tr>
+                <tr>
+                    <td>Пароль содержит больше 10ти символов</td>
+                    <td class="extraLetter" id="extraLetter">
+                        <p>+10</p>
+                    </td>
+               </tr>
+                <tr>
+                    <td>Пароль содежрит больше двух спецсимволов</td>
+                    <td class="extraReg" id="extraReg">
+                        <p>+10</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Пароль не содержит больше трех букв заглавных</td>
+                    <td class="extraCapitalLetter" id="extraCapitalLetter">
+                        <div class="extrashow-letter" id="extraShowLetter"><p>0</p></div>
+                        <div class="extrahide-letter" id="extraHideLetter"><p>-10</p></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Пароль не содежрит больше пяти цифр</td>
+                    <td class="extraRepeatNumber" id="extraRepeatNumber">
+                        <div class="extrashow-number" id="extraShowNumber"><p>0</p></div>
+                        <div class="extrahide-number" id="extraHideNumber"><p>-10</p></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Пароль не содежрит больше двух цифр <strong>подряд</strong></td>
+                    <td class="extraRepeatNumberSequently" id="extraRepeatNumberSequently">
+                        <div class="extrashow-number-sequently" id="extraShowNumberSequently"><p>0</p></div>
+                        <div class="extrahide-number-sequently" id="extraHideNumberSequently"><p>-10</p></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Проверка пароля через словарь</td>
+                    <td class="extraRepeatPassword" id="extraRepeatPassword">
+                        <div class="extrashow-password" id="extraShowPassword"><p>0</p></div>
+                        <div class="extrahide-password" id="extraHidePassword"><p>-10</p></div>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td>Пароль состоит из нескольких языков</td>
+                    <td class="extraMultiLanguage" id="extraMultiLanguage"><p>+10</p></td>
+                </tr> -->
+                <tr>
+                    <td>Пароль не содежрит повторяющихся символов</td>
+                    <td class="extraRepeatLetter" id="extraRepeatLetter">
+                        <p>+20</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Букв верхнего регистра</td>
+                    <td>
+                        <div id="upperCase"></div> букв(а)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Букв нижнего регистра</td>
+                    <td>
+                        <div id="lowerCase"></div> букв(а)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Итог</th>
+                    <th>
+                        <div id="extraSum"></div> Балов
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
