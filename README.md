@@ -17,8 +17,8 @@
 
 [Проект #8(Yoga tours)](https://olesyudin.github.io/Project_yoga/ "Yoga") - сайт для компании Дом Солнца
 
-##LABWORKS
+# LABWORKS
 
-##УИБ
+## УИБ
 
 [LW-1](https://olesyudin.github.io/LabWorks/YIB/LW1%20(Password%20validator) "Password Validator") - оценка надежности пароля на JS
