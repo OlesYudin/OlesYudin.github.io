@@ -21,4 +21,4 @@
 
 [УИБ]
 
-[LW-1](https://olesyudin.github.io/labworks/ "Password Validator") - оценка надежности пароля на JS
+[LW-1](https://olesyudin.github.io/LabWorks/YIB/LW1 (Password validator) "Password Validator") - оценка надежности пароля на JS
