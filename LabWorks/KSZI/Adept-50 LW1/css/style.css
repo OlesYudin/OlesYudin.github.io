@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Verdana;
     background: #3b3a3d;
@@ -10,7 +11,7 @@ a {
     text-decoration: none;
 }
 h2 {
-    color: #ee82ee;
+    color: #0bbbf1;
     margin: 10px;
 }
 .wrap {
@@ -19,14 +20,14 @@ h2 {
     justify-content: center;
 }
 .user a {
-    color: #e225e2;
+    color: #0bf1e6;
 }
 .user .active,
 .terminal.active,
 .file.active,
 .job.active {
     transition: ease-in-out .1s;
-    background: #cf4dcf;
+    background: #3ec2ffc5;
     color: #fff;
 }
 .wrap ul {
@@ -36,7 +37,7 @@ h2 {
 .wrap li {
     list-style: none;
     padding: 5px 0;
-    color: #b35eb3;
+    color: #0bf1e6;
 }
 form {
     margin-top: 20px;
@@ -55,7 +56,7 @@ form {
 .chose-terminal .terminal-wrap,
 .chose-file .file-wrap,
 .chose-job .job-wrap {
-    color: #b35eb3;
+    color: #0b9df1;
     padding: 5px 0;
 }
 .btn {
@@ -67,9 +68,9 @@ form {
     font-weight: 700;
     outline: none;
     padding: 10px 30px;
-    color: #fff;
-    background: #bd16bd;
-    border: 3px solid #bd16bd;
+    color: #0b9df1;
+    background: #3b3a3d;
+    border: 3px solid #0b9df1;
     border-radius: 5px;
 }
 .btn input {
