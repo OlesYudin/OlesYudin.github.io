@@ -1,5 +1,5 @@
 # <div align="center">Front-end portfolio</div>
-####<div align="center">Owner: Oles Yudin</div>
+#### <div align="center">Owner: Oles Yudin</div>
 ## <div align="center">My projects</div>
 
 [Проект #1](https://olesyudin.github.io/Project_1/ "My Company") - Верстка сайта из интернет-шаблона not adaptive
