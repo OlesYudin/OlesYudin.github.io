@@ -1,5 +1,5 @@
-# <div align="center" color="green">Front-end portfolio</div>
-##### Oles Yudin
+# <div align="center">Front-end portfolio</div>
+#### Owner: Oles Yudin
 ## My projects
 
 [Проект #1](https://olesyudin.github.io/Project_1/ "My Company") - Верстка сайта из интернет-шаблона not adaptive
