@@ -1,4 +1,4 @@
-# <div align="center">Front-end portfolio</div>
+# <div align="center" color="green">Front-end portfolio</div>
 ##### Oles Yudin
 ## My projects
 
